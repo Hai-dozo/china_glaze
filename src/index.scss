@@ -1,0 +1,98 @@
+
+body {
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.header-main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 140px;
+  background:black;
+}
+
+.logo-black {
+  width: auto;
+  height: 70%;
+}
+
+.header-menu {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  height: 60px;
+  border-bottom: 1px solid silver;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: white;
+}
+
+.header-menu a {
+    text-decoration: none;
+}
+
+.logo-mark {
+  width: auto;
+  height: 70%;
+  margin-left: 10px;
+}
+
+.margin-left {
+  margin-left: 60px;
+}
+
+$x: 1;
+@while $x < 3 {
+  .menu-#{$x} {
+    @extend .margin-left;
+  }
+  $x: $x + 1;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  height: 600px;
+}
+
+.main-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20%;
+}
+
+.main-img {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  height: 80%;
+  align-items: center;
+}
+
+.polish-img {
+  width: 8.8%;
+  height: auto;
+}
+
+$x: 1;
+@while $x < 6 {
+  .main-img-#{$x} {
+    @extend .polish-img;
+  }
+  .main-img-#{$x}:hover {
+    transition-duration: .5s;
+    transform: scale(1.5);
+  }
+  $x: $x + 1;
+}
+
+.question-container {
+  background: rgba(232, 236, 241, 1);
+  text-align: center;
+}
