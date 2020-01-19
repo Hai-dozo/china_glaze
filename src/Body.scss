@@ -1,0 +1,31 @@
+.q-wrapper {
+    background: rgba(232, 236, 241, 1);
+    display: flex;
+    justify-content: center;
+}
+.q-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }  
+
+.q-title {
+    padding: 15px;
+}
+
+.answer {
+    display: flex;
+    flex-direction: column;
+    width: 550px;
+    
+}
+
+.questions {        
+    padding: 5px;
+    border-radius: 10px;
+    height: 100%;
+    &:hover {
+        background: white;
+        transition-duration: .7s;
+    }
+}

@@ -1,4 +1,5 @@
 import React from 'react';
+import './Body.scss';
 
 const QUESTIONS_JSON = `[
     {
@@ -25,13 +26,12 @@ const QUESTIONS_JSON = `[
 
 //   一つの質問とその回答を表示するdivを子コンポネントにする
   const Question = ({text, answer, isOpen, onClick}) => (
-    <div class="question">
         <label onClick={onClick}>
-            <p>{text}
-               {isOpen && <p>{answer}</p>}
-            </p>
+          <div class="questions">
+            <h6>{text}</h6>
+            {isOpen && <p>{answer}</p>}
+          </div>
         </label>
-    </div>
   )
 
   class Body extends React.Component {
@@ -52,19 +52,23 @@ const QUESTIONS_JSON = `[
       }
       render(){
           return(
-            <div class="question-container">
-                <div>
-                    <p>ご注文に際してよくあるご質問</p>
-                </div>
-                {this.questions.map(q => (
-                    <Question
-                        key={q.id}
-                        text={q.text}
-                        answer={q.answer}
-                        onClick={() => { this.handleClick(q.id); }}
-                        isOpen={this.state.openIds.includes(q.id)}
-                    />
-                ))}
+            <div class="q-wrapper">
+              <div className="q-container">
+                  <div class="q-title">
+                    <h3>ご注文に際してよくあるご質問</h3> 
+                  </div>
+                  <div class="answer">  
+                      {this.questions.map(q => (
+                          <Question
+                              key={q.id}
+                              text={q.text}
+                              answer={q.answer}
+                              onClick={() => { this.handleClick(q.id); }}
+                              isOpen={this.state.openIds.includes(q.id)}
+                          />
+                      ))}
+                  </div>
+              </div>
             </div>
           );
       }
