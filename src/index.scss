@@ -42,6 +42,20 @@ body {
   margin-left: 10px;
 }
 
+.test-container{
+  height: 100px;
+  .child-container1 {
+    height: 30px;
+    background: red;
+  }
+  .child-container2 {
+    height: 30px;
+    background: blue;
+    position: sticky;
+    top: 0;
+  }
+}
+
 .margin-left {
   margin-left: 60px;
 }
