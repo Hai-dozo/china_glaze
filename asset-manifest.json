@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "http;//risaishide.github.io/china_glaze/static/css/main.01f904b6.chunk.css",
-    "main.js": "http;//risaishide.github.io/china_glaze/static/js/main.19772823.chunk.js",
-    "main.js.map": "http;//risaishide.github.io/china_glaze/static/js/main.19772823.chunk.js.map",
-    "runtime-main.js": "http;//risaishide.github.io/china_glaze/static/js/runtime-main.c3a1d396.js",
-    "runtime-main.js.map": "http;//risaishide.github.io/china_glaze/static/js/runtime-main.c3a1d396.js.map",
-    "static/css/2.47e06e2e.chunk.css": "http;//risaishide.github.io/china_glaze/static/css/2.47e06e2e.chunk.css",
-    "static/js/2.07bfb7b5.chunk.js": "http;//risaishide.github.io/china_glaze/static/js/2.07bfb7b5.chunk.js",
-    "static/js/2.07bfb7b5.chunk.js.map": "http;//risaishide.github.io/china_glaze/static/js/2.07bfb7b5.chunk.js.map",
-    "index.html": "http;//risaishide.github.io/china_glaze/index.html",
-    "precache-manifest.ee9d78cca9a150c8ba2f7efca6f7d735.js": "http;//risaishide.github.io/china_glaze/precache-manifest.ee9d78cca9a150c8ba2f7efca6f7d735.js",
-    "service-worker.js": "http;//risaishide.github.io/china_glaze/service-worker.js",
-    "static/css/2.47e06e2e.chunk.css.map": "http;//risaishide.github.io/china_glaze/static/css/2.47e06e2e.chunk.css.map",
-    "static/css/main.01f904b6.chunk.css.map": "http;//risaishide.github.io/china_glaze/static/css/main.01f904b6.chunk.css.map",
-    "static/js/2.07bfb7b5.chunk.js.LICENSE": "http;//risaishide.github.io/china_glaze/static/js/2.07bfb7b5.chunk.js.LICENSE"
+    "main.css": "/china_glaze/static/css/main.01f904b6.chunk.css",
+    "main.js": "/china_glaze/static/js/main.b5d160e1.chunk.js",
+    "main.js.map": "/china_glaze/static/js/main.b5d160e1.chunk.js.map",
+    "runtime-main.js": "/china_glaze/static/js/runtime-main.17c43478.js",
+    "runtime-main.js.map": "/china_glaze/static/js/runtime-main.17c43478.js.map",
+    "static/css/2.47e06e2e.chunk.css": "/china_glaze/static/css/2.47e06e2e.chunk.css",
+    "static/js/2.07bfb7b5.chunk.js": "/china_glaze/static/js/2.07bfb7b5.chunk.js",
+    "static/js/2.07bfb7b5.chunk.js.map": "/china_glaze/static/js/2.07bfb7b5.chunk.js.map",
+    "index.html": "/china_glaze/index.html",
+    "precache-manifest.c9f1b91c7c6143c19bd47be3e08cedd0.js": "/china_glaze/precache-manifest.c9f1b91c7c6143c19bd47be3e08cedd0.js",
+    "service-worker.js": "/china_glaze/service-worker.js",
+    "static/css/2.47e06e2e.chunk.css.map": "/china_glaze/static/css/2.47e06e2e.chunk.css.map",
+    "static/css/main.01f904b6.chunk.css.map": "/china_glaze/static/css/main.01f904b6.chunk.css.map",
+    "static/js/2.07bfb7b5.chunk.js.LICENSE": "/china_glaze/static/js/2.07bfb7b5.chunk.js.LICENSE"
   },
   "entrypoints": [
-    "static/js/runtime-main.c3a1d396.js",
+    "static/js/runtime-main.17c43478.js",
     "static/css/2.47e06e2e.chunk.css",
     "static/js/2.07bfb7b5.chunk.js",
     "static/css/main.01f904b6.chunk.css",
-    "static/js/main.19772823.chunk.js"
+    "static/js/main.b5d160e1.chunk.js"
   ]
 }
